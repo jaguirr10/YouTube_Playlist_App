@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=Metrophobic|Quicksand');
+
+
+
+h4 {
+
+  padding: 0;
+
+  margin: 0;
+
+  line-height: 1.3;
+
+  font-size:30px;
+
+   color: #ffff;
+
+  font-family: 'Metrophobic', sans-serif;
+
+   
+
+}
+
+
+
+p {
+
+  padding: 0;
+
+  margin: 0;
+
+  line-height: 1.3;
+
+  font-weight: 900;
+
+ 
+
+  color: #505050;
+
+  font-size:;
+
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+
+
+body {
+
+ background: #43C6AC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
+}
+
+
+
+
+
+.container {
+
+  width: 560px;
+
+  margin: 0 auto;
+
+background: #076585;  /* fallback for old browsers */
+
+background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+
+background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
+
+  
+
+}
+
+
+
+
+
+header,
+
+section {
+
+  position: fixed;
+
+  text-align: center;
+
+  width: 560px;
+
+   width: 560px;
+
+  margin: 0 auto;
+
+ background: #076585;  /* fallback for old browsers */
+
+background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+
+background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+ 
+
+
+}
+
+
+
+section {
+
+  top: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+.logo {
+
+  width: 120px;
+
+  padding: 10px;
+
+}
+
+
+
+main {
+
+  padding: 370px 18px 10px;
+
+   margin-top:-300px;
+
+ 
+
+}
+
+
+
+article {
+
+  display: flex;
+
+  align-items: center;
+
+  padding: 8px 12px;
+
+  border-radius: 8px;
+
+  margin: 0 auto;
+
+ 
+
+}
+
+article:hover {
+
+ -webkit-box-shadow: 13px 15px 47px 0px rgba(0,0,0,0.34); 
+
+box-shadow: 13px 15px 47px 0px rgba(0,0,0,0.34);
+
+
+
+}
+
+
+
+.thumb {
+
+  height: 70px;
+
+  border-radius: 4px;
+
+}
+
+
+
+.details {
+
+  padding: 8px 22px;
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 550px) {
+
+
+
+
+
+  p {
+
+     font-size:10px;
+
+	   
+
+	   text-align: center 
+
+  }
+
+  
+
+  h4{
+
+	  
+
+	   font-size:9px;
+
+	     
+
+		 text-align: center 
+
+	  
+
+  }
+
+  
+
+  
+
+  .im {
+
+	  
+
+	   width: 50px;
+
+	   height: 50px;
+
+	  
+
+  }
+
+  
+
+ 
+
+   main {
+
+	  
+
+	  
+
+	  width: 100%;
+
+	  height: auto;
+
+	   word-break: wrap;
+
+  }
+
+  
+
+  
+
+  section  {
+
+	  
+
+	  width: 100%;
+
+	  height: 400px;
+
+	  padding: 55px;
+
+	  margin-left:3px;
+
+  }
+
+
+
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
